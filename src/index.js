@@ -82,8 +82,8 @@ class ToDoApp extends React.Component {
   render() {
     const toDoList = this.state.items.map((item, index) => (
       <div key={index} className="alert alert-primary text-left">
-        <span className="todo-list-item-content">{item.content}</span>
-        <span className="todo-list-item-edit-option">
+        <span className="">{item.content}</span>
+        <span className="">
           <input
             type="button"
             id="btn-edit"
