@@ -159,7 +159,7 @@ class ToDoApp extends React.Component {
         </div>
         <br />
 
-        <div className="todo-list-section">{toDoList}</div>
+        <div className="">{toDoList}</div>
       </div>
     );
   }
